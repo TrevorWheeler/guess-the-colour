@@ -1,0 +1,43 @@
+body {
+    background-color: #232323;
+    color: white;
+    text-align: center;
+}
+
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.square {
+    width: 30%;
+    background-color: blue;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    float: left;
+    transition: background-color 0.4s;
+    -webkit-transition: background-color 0.4s;
+    -moz-transition: background-color 0.4s;
+}
+
+#stripe {
+    height: 30px;
+    width: 100vw;
+    background-color: white;
+}
+
+#message {
+    color: black;
+    height: 50px;
+}
+
+button {
+    transition: all 2.0s;
+    -webkit-transition: all 2.0s;
+    -moz-transition: all 2.0s;
+    outline: none;
+}
+
+.selected {
+    background-color: blue;
+}
